@@ -261,8 +261,7 @@ function rule1b() {
 	cX = sumX / ants.length;
 	cY = sumY / ants.length;
 	
-	// This status bar write will probably only work on IE5
-	console.log("Center: (" + cX + ", " + cY + ") Mouse: (" + mouseX + ", " + mouseY + ")") 
+	//console.log("Center: (" + cX + ", " + cY + ") Mouse: (" + mouseX + ", " + mouseY + ")"); 
 }
 
 var gRule1Scale = 1.0;
@@ -294,8 +293,7 @@ function rule1(thisAnt) {
 	ants[thisAnt].velocityX += dx;
 	ants[thisAnt].velocityY += dy;
 	
-	// This status bar write will probably only work on IE5
-	//window.status = "Dist from center: (" + dx + ", " + dy + ") Mouse: (" + mouseX + ", " + mouseY + ")" 
+	console.log("Dist from center: (" + dx + ", " + dy + ") Mouse: (" + mouseX + ", " + mouseY + ")"); 
 }
 
 var sx, sy;
@@ -548,14 +546,4 @@ function updateAnts() {
 <div id="ant6" class="ant" style="left: 808.4655746003615px; top: 84.31867505815526px; visibility: visible;"><img name="antImg6" width="22" height="22" src="./images/ant-ne.gif"></div>
 <div id="ant7" class="ant" style="left: 880.850562085615px; top: 72.2545135124542px; visibility: visible;"><img name="antImg7" width="22" height="22" src="./images/ant-w.gif"></div>
 <div id="ant8" class="ant" style="left: 966.0453820831925px; top: -47.105196254438326px; visibility: visible;"><img name="antImg8" width="22" height="22" src="./images/ant-e.gif"></div>
-
-
-
-
-
-
-
-
-
-
 </body></html>
